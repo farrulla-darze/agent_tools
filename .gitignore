@@ -1,0 +1,6 @@
+venv/
+.env
+poetry*
+Klabin/
+# Ignore all .tmp files in the temp directory
+temp/*.tmp

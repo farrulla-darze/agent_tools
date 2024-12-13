@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0"
+description = ""
+authors = ["Joao Farrulla <joao.farrulla@ecoa.puc-rio.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+unstructured = {extras = ["all-docs"], version = "^0.15.13"}
+pdfminer = "^20191125"
+pypdf2 = "^3.0.1"
+pdfplumber = "^0.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
